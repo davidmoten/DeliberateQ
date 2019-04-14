@@ -102,7 +102,9 @@ public class MainPanel extends JPanel {
 	            "/studies2/Lipset.txt"
 	            ,"/studies2/UppsalaSt25CombinedLikertRank.txt"
 	            ,"/studies2/UppsalaSt25CombinedForced.txt"
+	            ,"/studies2/CPAPrePostForQ.txt"
 	    };
+	    
         for (String study : studies) {
             addTab(tabs, new Data(getClass().getResourceAsStream(study)),
                     options);
